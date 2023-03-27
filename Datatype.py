@@ -6,3 +6,5 @@ print(num1, "is of type", type(num1))
 
 languages=["Python","JavaScript","Java","C#","C","C++"]
 print(languages[4])
+languages.append("Angular")
+print(languages)
