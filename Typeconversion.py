@@ -8,3 +8,17 @@ print("Datatype after conversion",num_str)
 
 num_sum=num_str+num_int
 print("Sum is",num_sum)
+
+
+#I/O in Python
+
+
+x=67
+y=90
+
+print("The value of y is {} and the value of x is {}".format(y,x))
+
+num =input("Enter your age\n")
+name=input("Enter youe Full name\n")
+
+print('{} is {} years old'.format(name,num))
