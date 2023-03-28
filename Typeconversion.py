@@ -22,3 +22,11 @@ num =input("Enter your age\n")
 name=input("Enter youe Full name\n")
 
 print('{} is {} years old'.format(name,num))
+
+#Converting user input to appropriate data type
+
+x=input("Enter numb1")
+y=input("Enter numb2")
+sum=x+y
+
+print("The sum is",sum)
