@@ -10,10 +10,9 @@ def inner_fxn():
 
     print(inner_variable)
     
-
     inner_fxn()
 
     print(global_variable)
 
     outer_fxn()
-
+    
