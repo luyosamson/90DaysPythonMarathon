@@ -1,7 +1,7 @@
 # Write a program that takes an integer
 # as input and checks if it is positive or negative.
 
-num=input(int("ENTER AN INTEGER"))
+num=int(input("ENTER AN INTEGER\t"))
 if num<0:
     print("This number is not a positive integer")
 else:
