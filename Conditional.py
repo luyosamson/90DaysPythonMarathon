@@ -11,3 +11,10 @@ elif marks>50:
     print("D")
 else:
     print("Retake")
+
+for i in range(10,20):
+         print(i)
+
+name=["Mary","Wambui","Kelvin","Kevo","Maryann"]
+for x in range(len(name)):
+        print(x,name[x])
