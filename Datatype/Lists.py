@@ -4,7 +4,9 @@
 # Are mutable-Changeable
 # List allows duplicate elements
 
-students = ['Samson', 'James', 'Emmanule', 'Grace', 'Phelix', 'Omondi']
+students = ['Samson', 'James', 'Emmanule', 'Grace', 'Phelix','Samson','Omondi']
 print(students)
 students2=['Mary','Otieno',[4,6,8,10],'Victor']
-print(students2[2])
+print(students2[2][2])
+
+print(students.count('Samson'))
