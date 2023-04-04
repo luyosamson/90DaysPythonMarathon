@@ -1,4 +1,4 @@
-#It is a collection of values,items or obejects of different types stored in 
+#It is a collection of values,items or objects of different types stored in 
 #key vale pairs enclosed in curly  braces and each key is  separated from its
 # value by a colon
 
