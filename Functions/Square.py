@@ -1,6 +1,3 @@
-
-
-
 def find_sqr(num):
     # num=int(input("Enter the number to find it's square\t"))
     sq=num*num
