@@ -9,3 +9,6 @@
 import os
 os.chdir('/home/pyramid/Development')
 print(os.getcwd())
+
+
+print(os.listdir())
