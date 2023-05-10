@@ -5,3 +5,13 @@
 
 import os
 print(os.getcwd())
+
+
+# print(os.listdir())
+
+# os.mkdir('Directory3')
+# os.rename('Directory3', 'Directory2')
+os.remove('Directory2')
+
+
+print(os.listdir())
