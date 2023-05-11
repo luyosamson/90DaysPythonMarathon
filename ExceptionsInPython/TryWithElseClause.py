@@ -14,3 +14,12 @@ if num%2!=0:
 else:
     reciprical=1/num
     print("Reciprical of " +str(num)+ " is",str(reciprical))
+
+try:
+    num=int(input("Enter a number "))
+    assert num%2==0
+except:
+    print("Not an even number")
+else:
+    reciprical=1/num
+    print(reciprical)
