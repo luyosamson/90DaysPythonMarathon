@@ -28,3 +28,10 @@ class Circle(Shape):
     def calculate_perimeter(self):
         perimeter=2*math.pi*self.radius
         print("Perimeter of a circle: ",perimeter)
+
+r1=Rectangle(7,5)
+r1.calculate_area()
+r1.calculate_perimeter()
+
+c1=Circle(5)
+c1.calculate_perimeter()
