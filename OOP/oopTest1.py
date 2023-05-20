@@ -12,26 +12,28 @@ class Rectangle(Shape):
         self.length=length
 
     def calculate_area(self):
-        rec_area=self.length*self.width
-        print("Area of a rectangle: ",rec_area)
+        return self.length*self.width
+  
     def calculate_perimeter(self):
-        rec_perimeter=2*(self.length+self.width)
-        print("Perimeter of a rectangle: ",rec_perimeter)
+        return 2*(self.length+self.width)
+ 
 
 class Circle(Shape):
     def __init__(self,radius):
         self.radius=radius
     def calculate_area(self):
-        area=math.pi*self.radius
-        print("Area of a circle: ",area)
+        return math.pi*self.radius
+     
 
     def calculate_perimeter(self):
-        perimeter=2*math.pi*self.radius
-        print("Perimeter of a circle: ",perimeter)
+        return 2*math.pi*self.radius
+      
 
 r1=Rectangle(7,5)
-r1.calculate_area()
-r1.calculate_perimeter()
+area=r1.calculate_area()
+perimeter=r1.calculate_perimeter()
+
+print(f"The area of the rectangle is ,{area} and the perimeter is , {perimeter}")
 
 c1=Circle(5)
 c1.calculate_perimeter()
