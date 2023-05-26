@@ -5,6 +5,7 @@ class Parentclass:
 class Childclass1(Parentclass):
     def child1_class(self):
         print("This is child class 1")
+        super().parent_class()
 
 class Childclass2(Childclass1):
     def child2_class(self):
