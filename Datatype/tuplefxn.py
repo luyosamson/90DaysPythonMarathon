@@ -1,0 +1,5 @@
+num=(23,78,3,56,100)
+print(max(num))
+print(min(num))
+print(sum(num))
+print(sorted(num,reverse=True))
