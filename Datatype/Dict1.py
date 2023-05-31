@@ -1,9 +1,16 @@
+import pprint
 student={
     "name":"Luyo",
-    "age":56,
+    "age":26,
     "school":"Multimedia University of Kenya",
     "county":"Siaya",
     "sex":"Male"
+}
+
+parents={
+    "name":"Willson Omondi",
+    "relationship":"Father",
+    "age":66
 }
 
 # student['Marital_Status']="Single"
@@ -26,3 +33,9 @@ student.setdefault("Height",56)
 print(student)
 student.pop("name")
 print(student)
+
+pprint.pprint(student)
+
+information={**student,**parents}
+print(information)
+pprint.pprint(information)
