@@ -17,3 +17,6 @@ print(num)
 # intersection or & will return a set with only the elements that are common to all of them.
 num2=odd.intersection(even)
 print(num2)
+
+num3=even.symmetric_difference(odd)
+print(num3)
