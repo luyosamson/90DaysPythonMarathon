@@ -16,4 +16,8 @@ class Student:
         print("Student grade",self.grade)
 
 student1=Student("Samson",18,"A")
+student1.update_age(78)
+grade=(90,87,56,78,95)
+average_grade=student1.average_grade(grade)
+print("Average grade",average_grade)
 student1.display_information()
