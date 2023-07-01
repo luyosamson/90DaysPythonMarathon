@@ -33,5 +33,6 @@ bank1=BankAccount("1236039971","Luyo",2000)
 bal=bank1.deposit(500)
 print(f"Current balance {bal}")
 bank1.intrest(5,2)
+bank1.withdraw(9000)
 
 bank1.display_info()
