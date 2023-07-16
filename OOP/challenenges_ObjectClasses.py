@@ -10,4 +10,5 @@
 
 # Create a class called "Library" that represents a library system. Include attributes such as a list of books, available seats, and a librarian. Implement methods to add books to the library, check out books, and display the current status of available seats.
 
-# Build a class called "Product" with attributes like name, price, and quantity. Implement methods to calculate the total cost of the product based on the quantity purchased and display the product details.
+# Build a class called "Product" with attributes like name, price, and quantity.
+# Implement methods to calculate the total cost of the product based on the quantity purchased and display the product details.
