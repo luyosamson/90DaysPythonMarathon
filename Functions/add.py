@@ -1,5 +1,5 @@
-def add(a,b):
+def add(a=100,b=200):
     sum=a+b
     return sum
-result=add(100,100)
+result=add()
 print(result)
