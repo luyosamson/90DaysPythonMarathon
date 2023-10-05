@@ -1,13 +1,14 @@
-furniture=['table','chair','shelf','drawer','rack']
-l=len(furniture)
-print(l)
-furniture[2]='desk'
+furniture='Desk','Table','Chair','Shelf'
+price=[1000,600,900,1200]
+name=['Samson','Omondi','Luyo','Kevin']
+
+for item,owner,cost in zip(furniture,name,price):
+    print(f'The {item},belongs to {owner} is costing ${cost}')
+
 print(furniture)
-numbers=['1','2','4','6','8']
 
-myList=numbers+furniture
-print(myList)
+a,b='samson','jacky'
+a,b=b,a
+print(b)
 
-for index,item in enumerate(myList):
-    print(f"Index :{index}-item:{item}")
-    
+furniture.index('Chair')
