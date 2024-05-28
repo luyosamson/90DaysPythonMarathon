@@ -35,4 +35,5 @@ print(f"Current balance {bal}")
 bank1.intrest(5,2)
 bank1.withdraw(9000)
 
+
 bank1.display_info()
