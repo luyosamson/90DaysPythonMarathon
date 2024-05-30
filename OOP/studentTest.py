@@ -14,7 +14,7 @@ class Student:
         print("Student name",self.name)
         print("Student age",self.age)
         print("Student grade",self.grade)
-        
+    
 
 student1=Student("Samson",18,"A")
 student1.update_age(78)
