@@ -1,6 +1,6 @@
 class Rectangle:
-    length=0
-    width=0
+    length=1
+    width=1
 
     #Method to calculate area
     def area(self):
