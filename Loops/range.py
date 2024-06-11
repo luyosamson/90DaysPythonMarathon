@@ -1,2 +1,2 @@
-y=range(4,10)
-print(y)
+for i in range(45):
+    print(i)
