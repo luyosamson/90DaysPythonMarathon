@@ -6,6 +6,7 @@
 #Set remove duplicate items,so cat will only appear onces
 
 animals={'Dog','Elephant','Tiger','Pig','Cat','Zebra','Cat'}
+
 print(animals)
 
 plants={'Rose','Palm','Fig'}
@@ -22,6 +23,8 @@ print(animals)
 #Clear remove everything from the set at once
 
 animals.discard('Luyo')
+
+
 print(animals)
 
 #Using union
