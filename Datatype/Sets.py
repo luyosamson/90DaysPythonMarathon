@@ -15,6 +15,7 @@ plants={'Rose','Palm','Fig'}
 
 animals.update(plants,{'Luyo'})
 
+
 print(animals)
 
 #remove Items from the set
